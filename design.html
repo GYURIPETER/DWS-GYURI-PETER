@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semánticas, CSS Grid </title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<header>
+
+    <body>
+        <nav>
+            <ul class="nav">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Temas</a>
+                    <ul>
+                        <li><a href="">Tema 1</a></li>
+                        <li><a href="">Tema 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Recursos Digitales</a>
+                    <ul>
+                        <li><a href="">Recurso 1</a></li>
+                        <li><a href="">Recurso 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Aprendizaje</a>
+                    <ul>
+                        <li><a href="">Actividad 1</a></li>
+                        <li><a href="">Actividad 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Acarca de</a>
+                    <ul>
+                        <li> Nombre: GYURI PETER MIKLY </li>
+                        <li> Programa actual: INGENIERIA DE SISTEMAS</li>
+                        <li> Correo: gpmiklym@unadvirtual.edu.co </li>
+                        <li>Tutor :MARIO LUIS AVILA PEREZ</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+</header>
+<section>
+    <h2>¿Que es una etiquita html?</h2>
+    
+    <p>Aparte de los importantes cambios en las etiquetas ya existentes (como <strong>&lt;input&gt;</strong>) y la eliminación
+        de otras (como
+        como <strong>&lt;xmp&gt;</strong>), uno de los cambios mas importante es la adición de nuevas etiquetas. Si bien varias
+        de estas vinieron a
+        solucionar nuestra vida como programadores, otras tienen una funcionalidad idéntica a la mítica etiqueta
+        <strong>&lt;div&gt;</strong>. Estas son las etiquetas semánticas.
+    </p>
+
+    <p>
+        Las etiquetas semánticas ayudan a la implementación de los estándares de la Web Semántica, cuya finalidad es
+        hacer el contenido de internet legible para aplicaciones informáticas.
+        Uno de los usos mas importantes de este tipo de etiquetas es la de marcar la información de la pagina para ser
+        indexada por los buscadores web como Google.
+
+    </p>
+    <table>
+        <tr>
+            <th><strong>Tag</strong></th>
+            <th><strong>Descripcón</strong></th>
+        </tr>
+        <tr>
+            <td><code>&lt;header&gt;</code></td>
+            <td>Representa un grupo de ayudas introductorias o de navegación.
+                También puede contener logos, formulario de búsqueda o tabla de contenidos</td>
+
+        </tr>
+        <tr>
+            <td><code>&lt;nav&gt;</code></td>
+            <td>Sección de una página que enlaza a otras páginas o partes de la misma.
+                Una sección con links de navegación.</td>
+
+        </tr>
+        <tr>
+            <td><code>&lt;aside&gt;</code></td>
+            <td>Sección de una pagina que contiene contenido relacionado tangencialmente al de su alrededor.
+                Por lo general se utilizan como barras laterales.</td>
+
+        </tr>
+        <tr>
+            <td><code>&lt;main&gt;</code></td>
+            <td> Representa el contenido predominante de la página.
+                Una página debe tener solo un tag <strong>
+                    &lt;main&gt;
+                </strong>
+                Solo debe estar contenida por tags de tipo <strong>
+                    &lt;html&gt;
+                </strong>, <strong>
+                    &lt;body&gt;
+                </strong>, <strong>
+                    &lt;div&gt;
+                </strong> o <strong>
+                    &lt;form&gt;
+                </strong><strong>
+                    &lt;form&gt;
+                </strong>.
+
+            </td>
+        </tr>
+        <tr>
+            <article>
+            <td><code>&lt;article&gt;</code></td>
+            <td>Representa una sección de contenido que puede ser distribuido de forma independiente.
+                Puede ser un post en un foro, un articulo de periódico, una entrada de un blog, un comentario, etc.
+            </td>
+        </tr>
+        <tr>
+            <td><code>&lt;section&gt;</code></td>
+            <td>Representa a una sección genérica de una pagina. Agrupa contenidos que tienen una relación temática
+                entre si.
+            </td>
+        </tr>
+        <tr>
+            <td><code>&lt;footer&gt;</code></td>
+            <td>Representa un pie de página para el elemento que lo contiene.
+                Generalmente contiene información acerca de quién lo escribió, enlaces a documentos relacionados, datos
+                de derechos de autor o similares.
+            </td>
+        </tr>
+    </table>
+    <h1>Ejemplo</h1>
+
+    <img src="img\imagen1.png">
+    <article>
+
+        <h1>CSS Grid Layout</h1>
+
+        <p>CSS Grid layout contiene funciones de diseño dirigidas a los desarrolladores de aplicaciones web. El CSS grid
+            se puede utilizar para lograr muchos diseños diferentes. También se destaca por permitir dividir una página
+            en áreas o regiones principales, por definir la relación en términos de tamaño, posición y capas entre
+            partes de un control construido a partir de primitivas HTML.
+        </p>
+        <h1>HTML</h1>
+        <img src="img\html.png">
+        <h1>CSS</h1>
+        <img src="img\CSS.png">
+        <div>
+            <img src="img\resultado.png">  
+        </div>
+        <img src="img\resultado.png">  
+        <h1>Mockup</h1>
+        <div>
+            <img src="img\mockup.jpg">  
+        </div>
+    </article>
+</body>
+<footer>
+    <p>Correo:gpmiklym@unadvirtual.edu.co</p>
+    <P>Fecha Actualización:15/02/2022</P>
+</footer>
+
+</html>
